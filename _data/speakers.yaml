@@ -1,0 +1,80 @@
+kamil.borzym:
+  name: Kamil Borzym
+  link: https://www.linkedin.com/in/kamil-borzym-03763473/
+  bio: >-
+    Kamil Borzym jest inżynierem oprogramowania w Allegro. W ciągu dnia zazwyczaj kompiluje kod, w nocy dekompiluje.
+
+jaroslaw.jedynak:
+  name: Jarosław Jedynak
+  link: https://www.linkedin.com/in/jaros%C5%82aw-jedynak-897a34a5/
+  bio: >-
+    Jarosław Jedynak zmienił pracę programisty na życie specjalisty od security. Obecnie pracuje jako Ekspert w CERT Polska, 
+    gdzie zajmuje się automatyzacją analiz, threat-huntingiem, a także inżynierią wsteczną ciekawych próbek złośliwego oprogramowania.
+    Po pracy pracuje w swojej drugiej pracy, rozwija projekty Open-Source, administruje serwerami, gra w CTFy w zespole p4 
+    i szuka dziur w całym.
+
+zbigniew.tenerowicz:
+  name: Zbyszek Tenerowicz
+  link: https://www.linkedin.com/in/zbigniew-tenerowicz-288175165/
+  bio: >-
+    Zbyszek Tenerowicz jest programistą full-stack i researcherem. Pracuje jako JS Security Lab Lead w MetaMask przy narzędziach
+    LavaMoat i Endo. Znajomość z Node.js rozpoczął za czasów wersji 0.8. Od początku wkręcony w tematy diagnostyki i bezpieczeństwa 
+    JavaScriptu. Weteran społeczności meet.js - w roli prelegenta i organizatora.
+
+mateusz.piorkowski:
+  name: Mateusz Piórkowski
+  link: https://www.linkedin.com/in/mateusz-pi%C3%B3rkowski-9b7ba4104/
+  bio: >-
+    Mateusz Piórkowski pracuje jako inżynier oraz threat hunter w Box oraz pomaga przy zleceniach od przyjaciół. W wolnych chwilach 
+    tworzy dziwne płytki, gra w Starcrafta i podziwia japońskie urządzenia pomiarowe.
+
+daniel.swiatek:
+  name: Daniel Świątek
+  link: https://www.linkedin.com/in/danswi/
+  bio: >-
+    Daniel Świątek jest absolwentem kierunku informatyka na Politechnice Gdańskiej. Był inżynierem oceny ryzyk IT/Cyber w Ergo Hestii 
+    (2017-2022) i pentesterem w Hestia Loss Control (2019-2022). Obecnie pracuje jako specjalista ds. bezpieczeństwa w Allegro.
+    W wolnym czasie propaguje wiedzę z zakresu świadomości zagrożeń i sieci komputerowych. Od czasu do czasu ratuje znajomych,
+    gdy przypadkowo klikną w podejrzane wiadomości.
+
+adam.paciuszkiewicz:
+  name: Adam Paciuszkiewicz
+  link: https://www.linkedin.com/in/adam-paciuszkiewicz-992776b5/
+  bio: >-
+    Adam Paciuszkiewicz jest obecnie Cyber Security Expert w Banku Gospodarstwa Krajowego.
+
+bartosz.galek:
+  name: Bartosz Gałek
+  bio: >-
+    Bartosz Gałek, podobnie jak Obelix nie potrzebował magicznego napoju, aby być silnym - Bartosz nie zawsze potrzebuje kawy, 
+    aby być pełnym energii i dzieli się nią ze swoim zespołem. Jest ogromnym fanem gier planszowych, zwolennikiem i współtwórcą 
+    oprogramowania open source oraz ruchu DevOps. Biegły w Java, JavaScript i DevOps. Działa w Warszawie i regularnie uczestniczy
+    w hackathonach.
+
+dorota.kozlowska:
+  name: Dorota Kozłowska
+  link: https://www.linkedin.com/in/dorota-kozlowska/
+  bio: >-
+    Dorota Kozłowska od najmłodszych lat marzyła o zostaniu hakerem, a jako certyfikowana
+    specjalistka ds. cyberbezpieczeństwa dzieli się swoją drogą edukacyjną, wskazówkami, a także przydatnymi materiałami
+    edukacyjnymi i motywacyjnymi, które pomagają innym budować odwagę i podążać za swoimi marzeniami – tak jak ona. Lubi
+    także dzielić się wiedzą i spostrzeżeniami jako międzynarodowy prelegent. Wyróżnienie: trofeum Cyber Woman Hope (Europe)
+    przyznane przez CEFCYS oraz 40 poniżej 40 lat w konkursie Cybersecurity 2023 od magazynu Top Cyber News.
+
+robert.pogorzelski:
+  name: Robert Pogorzelski
+  avatar: https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80
+  bio: >-
+    Robert Pogorzelski to etatowy zawodnik drużyny czerwonych, specjalista w zakresie rekonesansu, odzyskiwania haseł 
+    i eksfiltracji danych. Wykładowca przedmiotu OSINT na studiach podyplomowych „Zarządzanie cyberbezpieczeństwem” w SGH. 
+    W przeszłości programista i lider zespołów. Doświadczenie zebrane w pracy dla instytucji finansowych i państwowych 
+    wykorzystał do zbudowania Qasaba.io, platformy wspierającej procesy Attack Surface Management o szybkie rozpoznanie 
+    infrastruktury i działania typowe dla operacji ofensywnych („włamanie on-demand”).
+
+wiktor.szymanski:
+  name: Wiktor Szymański
+  avatar: https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80
+  bio: >-
+    Wiktor Szymański jest związany z branżą bezpieczeństwa od ponad 10 lat. Obecnie pracuje jako IT Security Manager grupy Empik. 
+    Posiada szerokie doświadczenie w obszarze IT Security, wyniesione z konsultingu, branży finansowej i mediów. Sympatyk dzielenia się 
+    wiedzą, maniak planszówek i entuzjasta klocków LEGO.

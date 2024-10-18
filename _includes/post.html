@@ -1,0 +1,66 @@
+<article
+        id="{{post.title}}"
+        class="scroll-mt-16"
+        style="padding-bottom:0"
+        itemscope itemtype="http://schema.org/BlogPosting"
+>
+    <div>
+        <header class="relative mb-10 xl:mb-0">
+            <div class="pointer-events-none absolute left-[max(-0.5rem,calc(50%-18.625rem))] top-0 z-50 flex h-4 items-center justify-end gap-x-2 lg:left-0 lg:right-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] xl:h-8">
+                <a class="inline-flex" href="/#signers2">
+                    <time class="hidden xl:pointer-events-auto xl:block xl:text-2xs/4 xl:font-medium xl:text-white/50"
+                          datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                        {{ post.date | date: date_format }}
+                    </time>
+                </a>
+                <div class="h-[0.0625rem] w-3.5 bg-gray-400 lg:-mr-3.5 xl:mr-0 xl:bg-gray-300"></div>
+            </div>
+            <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+                <div class="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
+                    <div class="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto">
+                        <div class="flex"><a class="inline-flex" href="/#signers2">
+                            <time class="text-2xs/4 font-medium text-gray-500 dark:text-white/50 xl:hidden"
+                                  datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                                {{ post.date | date: date_format }}
+                            </time>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+            <div class="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
+                <div class="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto typography">
+                    <h2><a href="#">{{ post.title }}</a></h2>
+                    {{ post.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--            <div>-->
+    <!--                <header class="post-header">-->
+    <!--                    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>-->
+    <!--                    <p class="post-meta">-->
+    <!--                        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"-->
+    <!--                              itemprop="datePublished">-->
+    <!--                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
+    <!--                            {{ page.date | date: date_format }}-->
+    <!--                        </time>-->
+    <!--                        {%- if page.author -%}-->
+    <!--                        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span-->
+    <!--                            class="p-author h-card" itemprop="name">{{ page.author }}</span></span>-->
+    <!--                        {%- endif -%}-->
+    <!--                    </p>-->
+    <!--                </header>-->
+
+    <!--                <div class="post-content e-content" itemprop="articleBody">-->
+    <!--                    {{ content }}-->
+    <!--                </div>-->
+
+    <!--                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>-->
+    <!--            </div>-->
+</article>

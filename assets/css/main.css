@@ -38,10 +38,10 @@
     --typography-headings: theme(colors.gray.900);
     --typography-quotes: theme(colors.gray.500);
     --typography-quotes-border: theme(colors.gray.200);
-    --typography-links: theme(colors.sky.500);
-    --typography-link-hover: theme(colors.sky.600);
-    --typography-link-underline: theme(colors.sky.400 / 0.4);
-    --typography-link-hover-underline: theme(colors.sky.600 / 0.4);
+    --typography-links: #D3213D;
+    --typography-link-hover: #D3213D;
+    --typography-link-underline: #D3213D;
+    --typography-link-hover-underline: rgba(211, 33, 61, 0.4);
     --typography-pre: theme(colors.gray.300);
     --typography-pre-shadow: theme(boxShadow.md);
     --typography-bold: theme(colors.gray.900);
@@ -52,16 +52,6 @@
     --typography-hr: theme(colors.gray.900 / 0.05);
     --typography-th-borders: theme(colors.gray.900 / 0.2);
     --typography-td-borders: theme(colors.gray.900 / 0.05);
-
-    --shiki-color-text: theme(colors.white);
-    --shiki-token-constant: theme(colors.emerald.300);
-    --shiki-token-string: theme(colors.emerald.300);
-    --shiki-token-comment: theme(colors.gray.500);
-    --shiki-token-keyword: theme(colors.sky.300);
-    --shiki-token-parameter: theme(colors.pink.300);
-    --shiki-token-function: theme(colors.violet.300);
-    --shiki-token-string-expression: theme(colors.emerald.300);
-    --shiki-token-punctuation: theme(colors.gray.200);
 
     .dark & {
         --typography-body: theme(colors.gray.300);
@@ -290,7 +280,7 @@
     }
 
     hr {
-        margin-top: calc(theme(margin.16) - 1px);
+        margin-top: calc(theme(margin.8) - 1px);
     }
 
     li {
@@ -310,7 +300,7 @@
     }
 
     hr + * {
-        margin-top: theme(margin.16);
+        margin-top: theme(margin.8);
     }
 
     > :first-child,
