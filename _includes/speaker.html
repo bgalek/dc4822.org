@@ -1,0 +1,12 @@
+<div class="relative mt-8 flex items-center gap-x-4">
+    <img src="/assets/img/speakers/{{ include.id }}.jpg"
+         alt="" class="h-28 w-28 rounded-full bg-gray-50">
+    <div class="text-sm leading-6">
+        <p class="font-semibold text-gray-600/25">
+            <a href="{{ site.speakers[include.id].link }}">
+                {{ site.data.speakers[include.id].name }}
+            </a>
+        </p>
+        <p class="text-gray-600 text-xs">{{ site.data.speakers[include.id].bio }}</p>
+    </div>
+</div>
