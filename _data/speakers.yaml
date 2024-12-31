@@ -73,8 +73,29 @@ robert.pogorzelski:
 
 wiktor.szymanski:
   name: Wiktor Szymański
-  avatar: https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80
   bio: >-
     Wiktor Szymański jest związany z branżą bezpieczeństwa od ponad 10 lat. Obecnie pracuje jako IT Security Manager grupy Empik. 
     Posiada szerokie doświadczenie w obszarze IT Security, wyniesione z konsultingu, branży finansowej i mediów. Sympatyk dzielenia się 
     wiedzą, maniak planszówek i entuzjasta klocków LEGO.
+
+michal.wilczewski:
+  name: Michał Wilczewski
+  link: https://www.linkedin.com/in/michal-wilczewski/
+  bio: >-
+    Michał Wilczewski reprezentuje firmę GlobalDots z Izraela. Od 10 lat wspiera klientów głównie na rynkach DACH, pomagał przy wdrożeniach 
+    systemów CRM, IPAM czy DNS Security. Obecnie odpowiedzialny za Polskę, DACH, Europę Wschodnią jak i Nordics, 
+    będąc ekspertem w cloud security i optymalizacji kosztów chmurowych.
+
+andrzej.sienkiewicz:
+  name: Andrzej Sienkiewicz
+  link: https://www.linkedin.com/in/andrzej-sienkiewicz/
+  bio: >-
+    Andrzej Sienkiewicz jest inżynierem presales w Radware, zapewnia wsparcie sprzedaży i odpowiada za rozwój biznesu firmy 
+    w Polsce oraz regionie CEE. Wcześniej pracował w takich firmach jak F5 Networks, Zoom oraz Oracle.
+
+krzysztof.kocel:
+  name: Krzysztof Kocel
+  link: https://www.linkedin.com/in/krzysztof-kocel/
+  bio: >-
+    Krzysztof Kocel jest programistą z 15-letnim doświadczeniem, były deweloper Android, obecnie backend developer w Paramount. 
+    Zabierze Was w świat hackowania aplikacji mobilnych, tłumacząc zarówno słabe punkty, jak i skuteczne sposoby ich ochrony.
