@@ -12,3 +12,5 @@ plugins:
 
 postcss:
   cache: false
+
+future: true
