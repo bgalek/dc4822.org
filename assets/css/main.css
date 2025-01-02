@@ -80,7 +80,6 @@
 
     h2 {
         font-family: theme(fontFamily.display);
-        color: var(--typography-headings);
         font-weight: theme(fontWeight.semibold);
         font-size: theme(fontSize.xl);
         line-height: theme(lineHeight.8);
@@ -88,7 +87,6 @@
 
     /* Headings */
     h3 {
-        color: var(--typography-headings);
         font-family: theme(fontFamily.display);
         font-weight: theme(fontWeight.semibold);
         font-size: theme(fontSize.base);
@@ -105,7 +103,7 @@
     }
 
     h4 {
-        color: var(--typography-headings);
+        /*color: var(--typography-headings);*/
         font-family: theme(fontFamily.display);
         font-weight: theme(fontWeight.semibold);
         font-size: theme(fontSize.sm);
@@ -142,7 +140,7 @@
     }
 
     strong:not(a strong) {
-        color: var(--typography-bold);
+        /*color: var(--typography-bold);*/
     }
 
     kbd {

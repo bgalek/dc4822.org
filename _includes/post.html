@@ -33,34 +33,11 @@
         </header>
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
             <div class="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
-                <div class="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto typography">
-                    <h2><a href="#">{{ post.title }}</a></h2>
+                <div class="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto break-words typography dark:text-slate-400">
+                    <h2 id="{{ post.slug }}" class="dark:text-slate-400"><a href="#{{ post.slug }}">{{ post.title }}</a></h2>
                     {{ post.content }}
                 </div>
             </div>
         </div>
     </div>
-
-    <!--            <div>-->
-    <!--                <header class="post-header">-->
-    <!--                    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>-->
-    <!--                    <p class="post-meta">-->
-    <!--                        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"-->
-    <!--                              itemprop="datePublished">-->
-    <!--                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
-    <!--                            {{ page.date | date: date_format }}-->
-    <!--                        </time>-->
-    <!--                        {%- if page.author -%}-->
-    <!--                        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span-->
-    <!--                            class="p-author h-card" itemprop="name">{{ page.author }}</span></span>-->
-    <!--                        {%- endif -%}-->
-    <!--                    </p>-->
-    <!--                </header>-->
-
-    <!--                <div class="post-content e-content" itemprop="articleBody">-->
-    <!--                    {{ content }}-->
-    <!--                </div>-->
-
-    <!--                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>-->
-    <!--            </div>-->
 </article>
