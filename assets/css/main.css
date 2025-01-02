@@ -2,13 +2,13 @@
 ---
 
 @font-face {
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: 100 900;
-    font-display: block;
+    font-family: 'Anonymous Pro';
+    font-weight: 400; 
     font-style: normal;
-    font-named-instance: 'Regular';
-    src: url('/assets/fonts/Inter-roman.var.woff2') format('woff2');
+    font-display: swap;
+    src: url('/assets/fonts/AnonymousPro-Regular.woff2') format('woff2');
 }
+
 
 @font-face {
     font-family: 'Inter';
