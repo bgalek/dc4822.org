@@ -4,75 +4,112 @@
 {%- include head.html -%}
 
 <body class="flex min-h-full flex-col bg-white dark:bg-gray-950">
-<div class="relative flex-none overflow-hidden px-6 lg:pointer-events-none lg:fixed lg:inset-0 lg:z-40 lg:flex lg:px-0">
+  <div class="relative flex-none overflow-hidden px-6 lg:pointer-events-none lg:fixed lg:inset-0 lg:z-40 lg:flex lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden bg-gray-950 lg:right-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem]">
-        <svg class="absolute -bottom-48 left-[-40%] h-[80rem] w-[180%] lg:-right-40 lg:bottom-auto lg:left-auto lg:top-[-40%] lg:h-[180%] lg:w-[80rem]" aria-hidden="true">
-            <defs>
-                <radialGradient id=":R5km:-desktop" cx="100%">
-                    <stop offset="0%" stop-color="rgba(211, 33, 61, 0.3)"></stop>
-                    <stop offset="53.95%" stop-color="rgba(211, 33, 61, 0.09)"></stop>
-                    <stop offset="100%" stop-color="rgba(211, 33, 61, 0)"></stop>
-                </radialGradient>
-                <radialGradient id=":R5km:-mobile" cy="100%">
-                    <stop offset="0%" stop-color="rgba(211, 33, 61, 0.3)"></stop>
-                    <stop offset="53.95%" stop-color="rgba(211, 33, 61, 0.09)"></stop>
-                    <stop offset="100%" stop-color="rgba(211, 33, 61, 0)"></stop>
-                </radialGradient>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#:R5km:-desktop)" class="hidden lg:block"></rect>
-            <rect width="100%" height="100%" fill="url(#:R5km:-mobile)" class="lg:hidden"></rect>
-        </svg>
-        <div class="absolute inset-x-0 bottom-0 right-0 h-px bg-white mix-blend-overlay lg:left-auto lg:top-0 lg:h-auto lg:w-px"></div>
+      <svg class="absolute -bottom-48 left-[-40%] h-[80rem] w-[180%] lg:-right-40 lg:bottom-auto lg:left-auto lg:top-[-40%] lg:h-[180%] lg:w-[80rem]" aria-hidden="true">
+        <defs>
+          <radialGradient id=":R5km:-desktop" cx="100%">
+            <stop offset="0%" stop-color="rgba(211, 33, 61, 0.3)"></stop>
+            <stop offset="53.95%" stop-color="rgba(211, 33, 61, 0.09)"></stop>
+            <stop offset="100%" stop-color="rgba(211, 33, 61, 0)"></stop>
+          </radialGradient>
+          <radialGradient id=":R5km:-mobile" cy="100%">
+            <stop offset="0%" stop-color="rgba(211, 33, 61, 0.3)"></stop>
+            <stop offset="53.95%" stop-color="rgba(211, 33, 61, 0.09)"></stop>
+            <stop offset="100%" stop-color="rgba(211, 33, 61, 0)"></stop>
+          </radialGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#:R5km:-desktop)" class="hidden lg:block"></rect>
+        <rect width="100%" height="100%" fill="url(#:R5km:-mobile)" class="lg:hidden"></rect>
+      </svg>
+      <div class="absolute inset-x-0 bottom-0 right-0 h-px bg-white mix-blend-overlay lg:left-auto lg:top-0 lg:h-auto lg:w-px"></div>
     </div>
     <div class="relative flex w-full lg:pointer-events-auto lg:mr-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] lg:overflow-y-auto lg:overflow-x-hidden lg:pl-[max(4rem,calc(50%-38rem))]">
-        <div class="mx-auto max-w-lg lg:mx-0 lg:flex lg:w-96 lg:max-w-none lg:flex-col lg:before:flex-1 lg:before:pt-6">
-            <div class="pb-16 pt-20 sm:pb-20 sm:pt-32 lg:py-20">
-                <div class="relative">
-                    <img alt="logo dc4822" style="max-width: 200px" src="{{ "/assets/img/logo.svg" | relative_url }}"/>
-                    <h1 class="mt-14 font-display text-4xl/tight font-light text-white">
-                        <span style="color: #D3213D">DC4822</span><br>MEETUP</h1>
-                    <p class="my-8 text-lg/6 font-regular text-gray-300">Warszawska Społeczność<br />DEFCON</p>
-                    <div class="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start"><a
-                            class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-red-300 gap-x-3"
-                            href="mailto:hello@dc4822.org"><span
-                            class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                        <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor" class="flex-none h-4 w-4">
-                            <path d="M7 3.41a1 1 0 0 0-.668-.943L2.275 1.039a.987.987 0 0 0-.877.166c-.25.192-.398.493-.398.812V12.2c0 .454.296.853.725.977l3.948 1.365A1 1 0 0 0 7 13.596V3.41ZM9 13.596a1 1 0 0 0 1.327.946l3.948-1.365c.429-.124.725-.523.725-.977V2.017c0-.32-.147-.62-.398-.812a.987.987 0 0 0-.877-.166L9.668 2.467A1 1 0 0 0 9 3.41v10.186Z"></path>
-                        </svg>
-                        <span class="self-baseline text-white">Contact</span></a><a
-                            class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-red-300 gap-x-3"
-                            href="https://www.meetup.com/pl-PL/dc4822/"><span
-                            class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                        <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor" class="flex-none h-4 w-4">
-                            <path d="M7 3.41a1 1 0 0 0-.668-.943L2.275 1.039a.987.987 0 0 0-.877.166c-.25.192-.398.493-.398.812V12.2c0 .454.296.853.725.977l3.948 1.365A1 1 0 0 0 7 13.596V3.41ZM9 13.596a1 1 0 0 0 1.327.946l3.948-1.365c.429-.124.725-.523.725-.977V2.017c0-.32-.147-.62-.398-.812a.987.987 0 0 0-.877-.166L9.668 2.467A1 1 0 0 0 9 3.41v10.186Z"></path>
-                        </svg>
-                        <span class="self-baseline text-white">Meetup</span></a></div>
-                </div>
+      <div class="mx-auto max-w-lg lg:mx-0 lg:flex lg:w-96 lg:max-w-none lg:flex-col lg:before:flex-1 lg:before:pt-6">
+        <div class="pb-16 pt-20 sm:pb-20 sm:pt-32 lg:py-20">
+          <div class="relative">
+            <img alt="logo dc4822" style="max-width: 200px" src="{{ "/assets/img/logo.svg" | relative_url }}" />
+            <h1 class="mt-14 font-display text-4xl/tight font-light text-white">
+              <span style="color: #D3213D">DC4822</span><br />MEETUP
+            </h1>
+            <p class="my-8 text-lg/6 font-regular text-gray-300">
+              Warszawska Społeczność<br />DEFCON
+            </p>
+
+            <!-- Menu główne: O nas, Sponsorzy, Kontakt -->
+            <div class="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+              <!-- O nas -->
+              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 
+                  transition-colors hover:text-red-300 gap-x-3" href="#indawork">
+                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition 
+                    group-hover:scale-100 group-hover:opacity-100"></span>
+                <span class="self-baseline text-white">O nas</span>
+              </a>
+
+              <!-- Kontakt -->
+              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 
+                  transition-colors hover:text-red-300 gap-x-3" href="mailto:hello@dc4822.org">
+                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition 
+                    group-hover:scale-100 group-hover:opacity-100"></span>
+                <span class="self-baseline text-white">Kontakt</span>
+              </a>
             </div>
-            <div class="flex flex-1 items-end justify-center pb-4 lg:justify-start lg:pb-6">
+
+            <!-- Badges: Discord i Meetup -->
+            <div class="mt-6 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+              <!-- Discord -->
+              <a href="https://discord.gg/QqFjCXgegA" target="_blank">
+                <img src="https://img.shields.io/discord/1294682276524982344?logo=discord&label=Defcon%204822&link=https%3A%2F%2Fdiscord.gg%2FQqFjCXgegA" alt="Discord Badge" />
+              </a>
+
+              <!-- Meetup -->
+              <a href="https://www.meetup.com/dc4822" target="_blank">
+                <img alt="Static Badge" src="https://img.shields.io/badge/dc4822-Meetup-red?style=flat&logo=meetup&color=%23d3213d&link=https%3A%2F%2Fwww.meetup.com%2Fdc4822">
+              </a>
+
+              <!-- HackTheBox -->
+              <a href="https://app.hackthebox.com/public/teams/overview/961" target="_blank">
+                <img alt="Static Badge" src="https://img.shields.io/badge/dc4822-htb-green?logo=hackthebox&link=https%3A%2F%2Fapp.hackthebox.com%2Fpublic%2Fteams%2Foverview%2F961">
+              </a>
             </div>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+              <p><br><span class="self-baseline text-white">Sponsorzy</span></p>
+            </div>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+              <p>
+                <a href="https://allegro.tech" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Allegro.pl_sklep.svg/1280px-Allegro.pl_sklep.svg.png" width="150">
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
+
+        <div class="flex flex-1 items-end justify-center pb-4 lg:justify-start lg:pb-6">
+        </div>
+      </div>
     </div>
-</div>
-<div class="relative flex-auto">
+  </div>
+
+  <div class="relative flex-auto">
     <div class="pointer-events-none absolute inset-0 z-50 overflow-hidden lg:right-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-[32rem] lg:overflow-visible">
-        <svg class="absolute left-[max(0px,calc(50%-18.125rem))] top-0 h-full w-1.5 lg:left-full lg:ml-1 xl:left-auto xl:right-1 xl:ml-0"
-             aria-hidden="true">
-            <defs>
-                <pattern id=":R7km:" width="6" height="8" patternUnits="userSpaceOnUse">
-                    <path d="M0 0H6M0 8H6" class="stroke-red-900/10 dark:stroke-white/10 xl:stroke-white/10"
-                          fill="none"></path>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#:R7km:)"></rect>
-        </svg>
+      <svg class="absolute left-[max(0px,calc(50%-18.125rem))] top-0 h-full w-1.5 lg:left-full lg:ml-1 xl:left-auto xl:right-1 xl:ml-0" aria-hidden="true">
+        <defs>
+          <pattern id=":R7km:" width="6" height="8" patternUnits="userSpaceOnUse">
+            <path d="M0 0H6M0 8H6" class="stroke-red-900/10 dark:stroke-white/10 xl:stroke-white/10" fill="none"></path>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#:R7km:)"></rect>
+      </svg>
     </div>
     <main class="space-y-20 py-20 sm:space-y-32 sm:py-32">
-        {%- for post in site.posts -%}
-            {%- include post.html -%}
-        {%- endfor -%}
+      {%- for post in site.posts -%}
+        {%- include post.html -%}
+      {%- endfor -%}
     </main>
-</div>
+  </div>
 </body>
 
 </html>
