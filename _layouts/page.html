@@ -19,9 +19,16 @@
         </svg>
     </div>
     <main class="space-y-20 py-20 sm:space-y-32 sm:py-32">
-        {%- for post in site.posts -%}
-        {%- include post.html -%}
-        {%- endfor -%}
+        <article class="scroll-mt-16" style="padding-bottom:0">
+            <div>
+                <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+                    <div class="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
+                        <div class="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto break-words typography dark:text-slate-400">
+                            {{content}}
+                        </div>
+                    </div>
+                </div>
+        </article>
     </main>
 </div>
 </body>
